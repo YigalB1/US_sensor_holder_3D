@@ -61,5 +61,6 @@ module base(_base_width, _pole_width,_pole_height) {
 base(55,55,37);
 
 // narrow base version
-translate ([0 ,100 ,0]) base(55,6,37);
-translate ([0 ,100 ,0]) base(55,16,25); // these 2 lines overlap to allow wider base of pole and narrow 
+// these 2 lines overlap to allow wider base of pole and narrow
+translate ([0 ,100 ,0]) base(55,6,37); // top narrow
+translate ([0 ,100 ,0]) base(55,16,25); // waider base
